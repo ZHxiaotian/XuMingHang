@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">XuMingHang</string>
+    <string name="app_name">旭明行</string>
+    <string name="domain_title">请填写标题</string>
+    <string name="domain_url">请填写域名</string>
 </resources>

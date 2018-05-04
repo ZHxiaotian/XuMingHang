@@ -10,4 +10,16 @@
     <color name="black">#000000</color>
     <color name="white_c">#FFFFFF</color>
     <color name="qianhui">#E0E0E0</color>
+    <color name="content_text">#656867</color>
+    <color name="content_color">#666666</color>
+    <color name="white_normal">#ffffffff</color>
+    <color name="login_button_background">#71c297</color>
+    <color name="white">#FFFFFF</color>
+    <color name="sred">#ff4141</color>
+    <color name="gold">#d8ab5c</color>
+    <color name="orange">#ffa500</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="transparent">#00000000</color>
+    <color name="green">#FF34A350</color>
+    <color name="background">#f1f1f1</color>
 </resources>
