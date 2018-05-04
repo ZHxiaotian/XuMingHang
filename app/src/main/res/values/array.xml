@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="checkstyle">
+        <item>1.现结</item>
+        <item>2预付货款金额</item>
+        <item>3.压批，甲方收到乙方第二批货品后，对乙方第一批货品进行结算</item>
+        <item>4.帐期，甲方收到乙方货物后一定天后，进行结算</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,843 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/qianhui"
+    android:orientation="vertical">
+   <include layout="@layout/layout_title"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_margin="6dip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:scrollbars="vertical">
+            <View style="@style/horizontalline" />
+
+            <TableRow
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:id="@+id/concent7"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="客户编码" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+                        android:id="@+id/concent8"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:id="@+id/concent9"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="客户名称" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+                        android:id="@+id/et_coustorname"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="业务代表" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+                        android:id="@+id/et_ywdb"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="客户级别" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+                        android:id="@+id/et_khjb"
+                        android:layout_width="100dip"
+                        android:lines="1"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="通讯地址" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="50dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="传真" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="法人代表" />
+
+                    <View style="@style/TableBorder" />
+                     <LinearLayout
+                         android:layout_weight="1"
+                         android:layout_width="150dip"
+                         android:layout_height="wrap_content">
+                    <EditText
+
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="50dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="联系方式" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                     </LinearLayout>
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="50dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="身份证号" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="注册资本" />
+
+                    <View style="@style/TableBorder" />
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content">
+                        <EditText
+
+                            android:layout_width="50dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:lines="1"
+                            android:gravity="center" />
+
+                        <View style="@style/TableBorder" />
+
+                        <TextView
+                            android:layout_width="50dip"
+
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="成立日期" />
+
+                        <View style="@style/TableBorder" />
+
+                        <EditText
+
+                            android:layout_width="50dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="50dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="*****" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="纳税类型" />
+
+
+
+
+                    <View style="@style/TableBorder" />
+
+                    <RadioGroup
+                        android:layout_width="300dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:layout_width="100dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="增值税一般纳税人" />
+
+                        <RadioButton
+                            android:layout_width="100dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="小规模纳税人" />
+
+                        <RadioButton
+                            android:layout_width="100dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="缴纳营业额" />
+                        <View style="@style/TableBorder" />
+
+                    </RadioGroup>
+
+
+                    <View style="@style/TableBorder" />
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="开户银行" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="银行账号" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:lines="1"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="营业执照" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="税务登记号码" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:lines="1"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="行业" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="经营范围" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="100dip"
+                        android:lines="1"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <View style="@style/TableBorder" />
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="联系人" />
+
+                <View style="@style/TableBorder" />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content">
+                    <EditText
+
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:gravity="center" />
+
+                    <View style="@style/TableBorder" />
+
+                    <TextView
+                        android:layout_width="50dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="联系方式" />
+
+                    <View style="@style/TableBorder" />
+
+                    <EditText
+
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                </LinearLayout>
+                <View style="@style/TableBorder" />
+
+                <TextView
+                    android:layout_width="50dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="邮箱" />
+
+                <View style="@style/TableBorder" />
+
+                <EditText
+
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+                <View style="@style/TableBorder" />
+            </LinearLayout>
+                </TableRow>
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="100dip"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="结算方式" />
+
+                    <View style="@style/TableBorder" />
+
+                    <LinearLayout
+                        android:layout_width="300dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dip"
+                            android:layout_weight="1"
+
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="预付款，合同签订时甲方已预付货款金额" />
+
+
+                            <View style="@style/TableBorder" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="预付货款金额" />
+
+                            <View style="@style/TableBorder" />
+
+                            <EditText
+
+                                android:layout_width="30dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+
+                                android:lines="1"
+                                android:maxLength="16"
+                                android:background="@color/qianhui"
+                                android:gravity="center" />
+                        </LinearLayout>
+
+                        <View style="@style/horizontalline" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dip"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="3．压批，甲方收到乙方第二批货品后，对乙方第一批货品进行结算" />
+
+
+                        </LinearLayout>
+
+                        <View style="@style/horizontalline" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dip"
+                            android:layout_weight="1"
+
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content"
+
+                                android:gravity="center"
+                                android:text="4．帐期，甲方收到乙方货物后一定天后，进行结算" />
+
+
+                            <View style="@style/TableBorder" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content"
+
+                                android:gravity="center"
+                                android:text="结算帐期" />
+
+                            <View style="@style/TableBorder" />
+
+                            <EditText
+                                android:layout_width="100dip"
+                                android:layout_height="wrap_content"
+
+                                android:imeOptions="flagNoExtractUi"
+                                android:singleLine="true" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <View style="@style/horizontalline" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_purple_press_ok"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <View style="@style/TableBorder" />
+                    <TextView
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="结算周期" />
+
+                    <View style="@style/TableBorder" />
+
+
+                    <View style="@style/TableBorder" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="满________日 " />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="累计进货达到_________万元后" />
+
+                    </RadioGroup>
+                    <View style="@style/TableBorder" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <View style="@style/TableBorder" />
+            <View style="@style/horizontalline" />
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

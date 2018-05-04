@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="searchtextcolor">#2C8B8282</color>
+    <color name="divider">#ffd2d2d2</color>
+    <color name="btn_purple_press_ok">#FFFFFF</color>
+    <color name="btn_purple_normal_ok">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_c">#FFFFFF</color>
+    <color name="qianhui">#E0E0E0</color>
+</resources>
